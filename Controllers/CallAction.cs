@@ -5,7 +5,7 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [EnableCors("AllowOrigin")]
+    //[EnableCors("AllowOrigin")]
     public class CallAction : ControllerBase
     {
         [HttpGet]
