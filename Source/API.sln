@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Controller", "Service Layer\API.Controller.csproj", "{BC35D835-1BE6-428E-BC20-C826226E1228}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{51B1EC28-B96A-4C9B-A097-182ED38A68F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shell", "Shell", "{385BFCCF-48CA-4DF5-8BC5-79CA124D3CE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC35D835-1BE6-428E-BC20-C826226E1228} = {51B1EC28-B96A-4C9B-A097-182ED38A68F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85BA4B97-5A53-4FD3-8148-BC2F60F6C359}
