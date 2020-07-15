@@ -1,6 +1,7 @@
 ﻿namespace API.Model.Responses
 {
-    class SampleResponse
+    public class SampleResponse
     {
+        public string Name { get; set; }
     }
 }

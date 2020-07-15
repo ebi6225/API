@@ -4,7 +4,7 @@ namespace API.Shell.App_Start
 {
     [ApiController]
     [Route("[controller]")]
-    public class StartingApp : ControllerBase
+    public class CallAction : ControllerBase
     {
         [HttpGet]
         public string Get()

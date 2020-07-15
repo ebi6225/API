@@ -1,23 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using API.Model.Responses;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class CallAction : ControllerBase
+    [Route("CallAction")]
+    public class Controller : ControllerBase
     {
         [HttpGet]
         [Route("TSGetRoute")]
         public string TSGetRoute()
         {
             return "D";
-
         }
         [HttpPost]
         [Route("TSPRoute")]
-        public T PostTest()
+        public SampleResponse PostTest()
         {
-            return new T { Name = "D" };
+            return new SampleResponse { Name = "D" };
         }
 
         [HttpPost]
@@ -26,10 +25,5 @@ namespace API.Controllers
         {
             return "D";
         }
-    }
-
-    public class T
-    {
-        public string Name { get; set; }
     }
 }
