@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Service Layer\API.Controller.csproj" />
+    <ProjectReference Include="..\..\Service Layer\API.Controller\API.Controller.csproj" />
   </ItemGroup>
 
 

@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
@@ -7,12 +6,6 @@ namespace API.Controllers
     [Route("[controller]")]
     public class CallAction : ControllerBase
     {
-        [HttpGet]
-        public string Get()
-        {
-            return "API Is Running";
-        }
-
         [HttpGet]
         [Route("TSGetRoute")]
         public string TSGetRoute()
