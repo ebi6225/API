@@ -8,10 +8,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shell", "Shell", "{385BFCCF-48CA-4DF5-8BC5-79CA124D3CE9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Shell", "Shell\API.Shell\API.Shell.csproj", "{2857E43C-FFD9-41E2-AECE-360746B811E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67ACC615-53EC-430F-AFE1-F369D5C595C0} = {67ACC615-53EC-430F-AFE1-F369D5C595C0}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Controller", "Service Layer\API.Controller\API.Controller.csproj", "{AC026332-66D3-436C-99DF-0D5AFC1F3B86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67ACC615-53EC-430F-AFE1-F369D5C595C0} = {67ACC615-53EC-430F-AFE1-F369D5C595C0}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Model", "Service Layer\API.Model\API.Model.csproj", "{67ACC615-53EC-430F-AFE1-F369D5C595C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Model", "Service Layer\API.Model\API.Model.csproj", "{67ACC615-53EC-430F-AFE1-F369D5C595C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
