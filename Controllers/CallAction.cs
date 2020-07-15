@@ -5,7 +5,6 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    //[EnableCors("AllowOrigin")]
     public class CallAction : ControllerBase
     {
         [HttpGet]
@@ -14,11 +13,18 @@ namespace API.Controllers
             return "API Is Running";
         }
 
-        [HttpPost]
-        [Route("TSPRoute")]
-        public string PostTest()
+        [HttpGet]
+        [Route("TSGetRoute")]
+        public string TSGetRoute()
         {
             return "D";
+
+        }
+        [HttpPost]
+        [Route("TSPRoute")]
+        public T PostTest()
+        {
+            return new T { Name = "D" };
         }
 
         [HttpPost]
@@ -27,5 +33,10 @@ namespace API.Controllers
         {
             return "D";
         }
+    }
+
+    public class T
+    {
+        public string Name { get; set; }
     }
 }
