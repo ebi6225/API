@@ -1,6 +1,7 @@
 ﻿namespace API.Model.Requests
 {
-    class SampleRequest
+   public class SampleRequest
     {
+        public string username { get; set; }
     }
 }

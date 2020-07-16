@@ -2,6 +2,7 @@
 {
     public class SampleResponse
     {
-        public string Name { get; set; }
+        public string MatchineName { get; set; }
+        public string UserName { get; set; }
     }
 }

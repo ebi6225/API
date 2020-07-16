@@ -1,4 +1,6 @@
-﻿using API.Model.Responses;
+﻿using API.Controller.Services;
+using API.Model.Requests;
+using API.Model.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -13,10 +15,10 @@ namespace API.Controllers
             return "D";
         }
         [HttpPost]
-        [Route("TSPRoute")]
-        public SampleResponse PostTest()
+        [Route("GetMachineName")]
+        public SampleResponse GetMachineName(SampleRequest request)
         {
-            return new SampleResponse { Name = "D" };
+            return new MatchineNameService().GetMachineName(request);
         }
 
         [HttpPost]
