@@ -15,8 +15,8 @@ namespace API.Controllers
             return "D";
         }
         [HttpPost]
-        [Route("GetMachineName")]
-        public SampleResponse GetMachineName(SampleRequest request)
+        [Route("email")]
+        public SampleResponse email(SampleRequest request)
         {
             return new MatchineNameService().GetMachineName(request);
         }
