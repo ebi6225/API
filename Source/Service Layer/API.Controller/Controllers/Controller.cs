@@ -1,4 +1,5 @@
-﻿using API.Controller.Services;
+﻿using API.Controller.Controllers;
+using API.Controller.Services;
 using API.Model.Requests;
 using API.Model.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -6,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
     [Route("CallAction")]
-    public class Controller : ControllerBase
+    public class Controller : AbstractController
     {
         [HttpGet]
         [Route("TSGetRoute")]
