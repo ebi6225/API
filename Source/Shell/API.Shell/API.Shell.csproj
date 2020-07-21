@@ -12,5 +12,11 @@
     <ProjectReference Include="..\..\Service Layer\API.Controller\API.Controller.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Base.Web.API">
+      <HintPath>..\..\..\..\Base.API\Base.API\Sources\Base.Web.API\bin\Debug\netstandard2.0\Base.Web.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
 </Project>

@@ -4,5 +4,6 @@ namespace API.Controller.Controllers
 {
     public abstract class AbstractController: BaseAbstractControllerBase
     {
+
     }
 }

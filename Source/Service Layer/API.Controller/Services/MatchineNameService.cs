@@ -11,7 +11,7 @@ namespace API.Controller.Services
             SampleResponse dto = new SampleResponse
             {
                 MatchineName = Environment.MachineName.ToString(),
-                UserName = request.username,
+                UserName = "wer",
             };
 
             return dto;

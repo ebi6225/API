@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("CallAction")]
     public class Controller : AbstractController
     {
         [HttpGet]
@@ -19,7 +18,7 @@ namespace API.Controllers
         [Route("email")]
         public SampleResponse email(SampleRequest request)
         {
-            return new MatchineNameService().GetMachineName(request);
+            return new MatchineNameService().GetMachineName(null);
         }
 
         [HttpPost]

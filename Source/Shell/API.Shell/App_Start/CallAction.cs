@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using API.Controller.Controllers;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API.Shell.App_Start
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class CallAction : ControllerBase
+    public class CallAction : AbstractController
     {
         [HttpGet]
         public string Get()
