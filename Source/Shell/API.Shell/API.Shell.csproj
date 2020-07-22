@@ -11,13 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Base.API\Base.API\Sources\Base.Web.API\Base.Web.API.csproj" />
+    <ProjectReference Include="..\..\..\..\Base.API\Sources\Base.Securit.Web.API\Base.Securit.Web.API.csproj" />
+    <ProjectReference Include="..\..\..\..\Base.API\Sources\Base.Web.API\Base.Web.API.csproj" />
     <ProjectReference Include="..\..\Service Layer\API.Controller\API.Controller.csproj" />
+    <ProjectReference Include="..\..\Service Layer\API.Model\API.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Base.Web.API">
-      <HintPath>..\..\..\..\Base.API\Base.API\Sources\Base.Web.API\bin\Debug\netstandard2.0\Base.Web.API.dll</HintPath>
+      <HintPath>..\..\..\..\Base.API\Sources\Base.Web.API\bin\Debug\netstandard2.0\Base.Web.API.dll</HintPath>
     </Reference>
   </ItemGroup>
 
