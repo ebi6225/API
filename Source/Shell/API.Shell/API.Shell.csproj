@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Base.API\Sources\Base.Securit.Web.API\Base.Securit.Web.API.csproj" />
-    <ProjectReference Include="..\..\..\..\Base.API\Sources\Base.Web.API\Base.Web.API.csproj" />
     <ProjectReference Include="..\..\Service Layer\API.Controller\API.Controller.csproj" />
     <ProjectReference Include="..\..\Service Layer\API.Model\API.Model.csproj" />
   </ItemGroup>

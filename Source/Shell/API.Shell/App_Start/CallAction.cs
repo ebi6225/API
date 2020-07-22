@@ -2,6 +2,7 @@
 using Base.Web.API.Managers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using System.Configuration;
 
 namespace API.Shell.App_Start
 {
@@ -17,8 +18,6 @@ namespace API.Shell.App_Start
         [HttpGet]
         public string Get()
         {
-            string connectionString = Configuration.GetConnectionString("Name");
-
             return AppSettingManager.Instance.Get<string>("APIMessage");
         }
     }

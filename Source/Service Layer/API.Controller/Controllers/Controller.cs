@@ -2,6 +2,7 @@
 using API.Controller.Services;
 using API.Model.Requests;
 using API.Model.Responses;
+using Base.Securit.Web.API.Validation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -10,12 +11,14 @@ namespace API.Controllers
     {
         [HttpGet]
         [Route("TSGetRoute")]
+        [APIAuthorize]
         public string TSGetRoute()
         {
             return "D";
         }
-        [HttpPost]
+        [HttpPost]        
         [Route("email")]
+        [APIAuthorize]
         public SampleResponse email(SampleRequest request)
         {
             return new MatchineNameService().GetMachineName(null);
