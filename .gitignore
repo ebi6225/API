@@ -134,3 +134,4 @@ _NCrunch*
 .vs
 trunk/BuildNote/BuildNote.txt
 trunk/libs
+/BasePackages/netstandard2.0/*.json

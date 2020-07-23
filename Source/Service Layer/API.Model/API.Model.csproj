@@ -10,4 +10,10 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Base.API.Model">
+      <HintPath>..\..\..\BasePackages\netstandard2.0\Base.API.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

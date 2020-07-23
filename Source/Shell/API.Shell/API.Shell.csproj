@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>b76e2539-b7ba-4a8e-a8ab-5be9e84a08a7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,12 +12,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Base.API\Sources\Base.Securit.Web.API\Base.Securit.Web.API.csproj" />
     <ProjectReference Include="..\..\Service Layer\API.Controller\API.Controller.csproj" />
     <ProjectReference Include="..\..\Service Layer\API.Model\API.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Base.Securit.Web.API">
+      <HintPath>..\..\..\BasePackages\netstandard2.0\Base.Securit.Web.API.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Web.API">
       <HintPath>..\..\..\..\Base.API\Sources\Base.Web.API\bin\Debug\netstandard2.0\Base.Web.API.dll</HintPath>
     </Reference>

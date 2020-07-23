@@ -1,6 +1,8 @@
-﻿namespace API.Model.Requests
+﻿using Base.API.Model.BaseMessages;
+
+namespace API.Model.Requests
 {
-   public class SampleRequest
+   public class SampleRequest: BaseMessageAPI
     {
         public string username { get; set; }
 
