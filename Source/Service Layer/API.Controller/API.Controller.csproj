@@ -20,10 +20,13 @@
 
   <ItemGroup>
     <Reference Include="Base.Securit.Web.API">
-      <HintPath>..\..\..\..\Base.API\Sources\Base.Securit.Web.API\bin\Debug\netstandard2.0\Base.Securit.Web.API.dll</HintPath>
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Securit.Web.API.dll</HintPath>
     </Reference>
     <Reference Include="Base.Web.API">
-      <HintPath>..\..\..\..\Base.API\Sources\Base.Web.API\bin\Debug\netstandard2.0\Base.Web.API.dll</HintPath>
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Web.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Bse.API.Controller">
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Bse.API.Controller.dll</HintPath>
     </Reference>
   </ItemGroup>
 

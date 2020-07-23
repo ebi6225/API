@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +12,10 @@
 
   <ItemGroup>
     <Reference Include="Base.API.Model">
-      <HintPath>..\..\..\BasePackages\netstandard2.0\Base.API.Model.dll</HintPath>
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.API.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Base.Securit.Web.API">
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Securit.Web.API.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -17,11 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Base.API.Model">
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.API.Model.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Securit.Web.API">
-      <HintPath>..\..\..\BasePackages\netstandard2.0\Base.Securit.Web.API.dll</HintPath>
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Securit.Web.API.dll</HintPath>
     </Reference>
     <Reference Include="Base.Web.API">
-      <HintPath>..\..\..\..\Base.API\Sources\Base.Web.API\bin\Debug\netstandard2.0\Base.Web.API.dll</HintPath>
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Web.API.dll</HintPath>
     </Reference>
   </ItemGroup>
 
