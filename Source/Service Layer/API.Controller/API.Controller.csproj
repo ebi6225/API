@@ -15,10 +15,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\API.Entities\API.Entities.csproj" />
     <ProjectReference Include="..\API.Model\API.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Base.API.Model">
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.API.Model.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Securit.Web.API">
       <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Securit.Web.API.dll</HintPath>
     </Reference>
