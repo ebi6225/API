@@ -141,3 +141,4 @@ trunk/libs
 /BasePackages/netcoreapp3.1/Base.API.Model.deps.json
 /BasePackages/netcoreapp3.1/Base.Web.API.runtimeconfig.dev.json
 /BasePackages/netcoreapp3.1/Base.Web.API.runtimeconfig.json
+/BasePackages/netcoreapp3.1/Base.API.Controller.deps.json

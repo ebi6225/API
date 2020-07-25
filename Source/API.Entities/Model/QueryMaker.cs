@@ -23,7 +23,7 @@ namespace API.Entities.Model
             }
         }
         //Following all need adding table names
-        public DbSet<ContactInfo> ContactInfo { get; set; }
+        public DbSet<ContactInfo> ContactInfo { get; set; }        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

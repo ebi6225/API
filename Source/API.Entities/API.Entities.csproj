@@ -17,6 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Base.API.Controller">
+      <HintPath>..\..\BasePackages\netcoreapp3.1\Base.API.Controller.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Web.API">
       <HintPath>..\..\BasePackages\netcoreapp3.1\Base.Web.API.dll</HintPath>
     </Reference>
