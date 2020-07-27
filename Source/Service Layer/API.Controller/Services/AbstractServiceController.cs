@@ -3,7 +3,7 @@ using System;
 
 namespace API.Controller.Services
 {
-    public abstract class AbstractServiceController : BseAbstractService
+    public abstract class AbstractServiceController : BaseAbstractService
     {
         public override object DoProcessBase(object Message)
         {

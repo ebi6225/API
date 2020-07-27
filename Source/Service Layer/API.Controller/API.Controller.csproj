@@ -20,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Base.API.Controller">
+      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.API.Controller.dll</HintPath>
+    </Reference>
     <Reference Include="Base.API.Model">
       <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.API.Model.dll</HintPath>
     </Reference>
@@ -28,9 +31,6 @@
     </Reference>
     <Reference Include="Base.Web.API">
       <HintPath>..\..\..\BasePackages\netcoreapp3.1\Base.Web.API.dll</HintPath>
-    </Reference>
-    <Reference Include="Bse.API.Controller">
-      <HintPath>..\..\..\BasePackages\netcoreapp3.1\Bse.API.Controller.dll</HintPath>
     </Reference>
   </ItemGroup>
 
